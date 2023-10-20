@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airspace</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="left">
+        <div class="logo">
+          <i class="ri-soundcloud-fill text-primary"></i>
+          <h2>Airspace</h2>
+        </div>
+        <form class="login-form" action="">
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" type="text" placeholder="airspace@info.com" />
+
+            <i class="ri-mail-line"></i>
+          </div>
+          <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="•••••••••••" />
+
+            <i class="ri-key-line"></i>
+            <i class="ri-eye-line" id="eyeOpen"></i>
+            <i class="ri-eye-off-line" id="eyeClose"></i>
+          </div>
+          <div class="input-checkbox">
+            <input id="rememberMe" type="checkbox" />
+            <label for="rememberMe">Remember me</label>
+          </div>
+
+          <button class="button-primary">Sign In</button>
+        </form>
+        <div class="or-line"><p>OR</p></div>
+        <p>Dont have an account? <a href="" class="link">Sign Up</a></p>
+        <div class="button-group">
+          <button class="button-secondary">
+            <i class="ri-google-fill"></i> <span>Sign In with Google</span>
+          </button>
+          <button class="button-primary">
+            <i class="ri-facebook-circle-fill text-light"></i> Sign In with
+            Facebook
+          </button>
+          <button class="button-dark">
+            <i class="ri-apple-fill text-light"></i> Sign In with Apple
+          </button>
+        </div>
+
+        <p class="copyright">© Copyright 2023 | Airspace Corporation</p>
+      </section>
+      <section class="right">
+        <h1 class="serif">
+          Securly upload and store<br />
+          your documents<br />
+          with <span class="text-primary serif">Airspace!</span>
+        </h1>
+        <img class="login-image" src="./images/login_image.svg" alt="" />
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
